@@ -1,0 +1,55 @@
+.widgetsm {
+    flex: 1;
+     box-shadow: -1px 3px 9px 5px rgba(189,183,183,0.76);
+    -webkit-box-shadow: -1px 3px 9px 5px rgba(189,183,183,0.76);
+    -moz-box-shadow: -1px 3px 9px 5px rgba(189,183,183,0.76);
+
+    padding: 20px;
+    margin-right: 20px;
+
+}
+
+.widgetsmTitle {
+    font-size: 20px;
+    font-weight: 600;
+}
+.widgetsmList {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.widgetListItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+
+.widgetsmInvestor {
+    display: flex;
+    flex-direction: column;
+}
+
+.widgetsmInvestorName {
+    font-weight: 600;
+}
+
+.widgetsmInvestorTitle {
+    font-weight: 300;
+}
+
+.widgetsmButton {
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    padding: 7px 10px;
+    background-color: #eeeef7;
+    color: #555;
+    cursor: pointer;
+}
+
+.widgetsmIcon {
+    font-size: 16px;
+    margin-right: 5px;
+}
